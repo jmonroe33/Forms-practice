@@ -1,0 +1,41 @@
+
+
+form {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+label {
+    display: flex;
+    flex-direction: row;
+    /* width: 20%; */
+}
+div {
+    padding-bottom: 10px;
+   
+}
+input, textarea {
+    width: 90vw;
+}
+ .name, .email {
+    display: flex;
+    flex-direction: row;
+  
+ }
+
+ .message {
+    display:flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+ }
+ button {
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 7px;
+    border-color: lightslategray;
+ }
+  textarea {
+    resize:none;
+}
